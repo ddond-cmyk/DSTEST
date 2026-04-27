@@ -37,6 +37,17 @@
 
 ---
 
+## ✅ 미리보기 등록 체크리스트
+
+새 미리보기 카드를 등록할 때 반드시:
+
+1. `group` 명시 — Type / Colors / Spacing / Components / Brand 중 하나
+2. `subtitle` 명시 — 어떤 변형/축인지 한 줄로
+3. `viewport` 명시 — 카드 크기에 맞춰 width/height
+4. `asset` 이름 일관성 — `[Component] · [Axis]` 패턴 (예: `Button · Sizes`)
+
+---
+
 ## 📐 컴포넌트 구조 패턴
 
 ```tsx
