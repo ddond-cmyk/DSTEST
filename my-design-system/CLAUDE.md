@@ -15,12 +15,13 @@
 ## 🚫 절대 규칙
 
 1. 절대로 레포에 있는 토큰만 사용
-2. 색상은 반드시 `tokens/colors.ts`의 변수만 사용 — hex 직접 입력 금지
-3. 폰트 사이즈는 `tokens/typography.ts`의 scale만 사용
-4. 간격(padding, margin, gap)은 `tokens/spacing.ts`의 배수만 사용
-5. 커스텀 CSS 작성 금지 — Tailwind 유틸리티 클래스만 허용
-6. `any` 타입 사용 금지 — 모든 Props는 TypeScript 인터페이스 정의
-7. 인라인 스타일(`style={{}}`) 사용 금지
+2. 컴포넌트 Props를 분리해서 적용해
+3. 색상은 반드시 `tokens/colors.ts`의 변수만 사용 — hex 직접 입력 금지
+4. 폰트 사이즈는 `tokens/typography.ts`의 scale만 사용
+5. 간격(padding, margin, gap)은 `tokens/spacing.ts`의 배수만 사용
+6. 커스텀 CSS 작성 금지 — Tailwind 유틸리티 클래스만 허용
+7. `any` 타입 사용 금지 — 모든 Props는 TypeScript 인터페이스 정의
+8. 인라인 스타일(`style={{}}`) 사용 금지
 
 ---
 
