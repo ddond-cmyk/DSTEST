@@ -3,8 +3,8 @@
 // 컴포넌트에서 색상을 직접 하드코딩하지 말고 이 토큰을 참조하세요.
 
 export const primitiveColors = {
-  white: "#FFFFFF",
-  black: "#0A0A0A",
+  white: "#FF0A0A",
+  black: "#EFF6FF",
 
   gray: {
     50: "#FAFAFA",
