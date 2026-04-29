@@ -1,6 +1,5 @@
-// tokens/colors.ts
+// 색상, 스페이스, 타이포그래피를 통합하여 정리한 파일입니다.
 // 이 파일이 색상의 단일 진실(Single Source of Truth)입니다.
-// 컴포넌트에서 색상을 직접 하드코딩하지 말고 이 토큰을 참조하세요.
 
 export const primitiveColors = {
   white: "#FF0A0A",
